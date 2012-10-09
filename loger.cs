@@ -9,14 +9,14 @@ using OpenQA.Selenium.Support.UI;
 
 namespace SeleniumTests
 {
-    [TestFixture]
-    public class Logintest
-    {
-        private IWebDriver driver;
-        private StringBuilder verificationErrors;
-        private string baseURL;
+   // [TestFixture]
+   // public class Logintest
+   // {
+     //   private IWebDriver driver;
+       // private StringBuilder verificationErrors;
+        //private string baseURL;
         
-        [SetUp]
+        //[SetUp]
         public void SetupTest()
         {
             driver = new FirefoxDriver();
